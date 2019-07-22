@@ -1,0 +1,36 @@
+.bg-petanikode {
+    background: #21759b;
+}
+.form-input-situskode {
+	margin-right: 0rem !important;
+	height: calc(1.4em + .7rem + 2px);
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-right: 0px !important;
+}
+.btn-situskode {
+	background-color: #536DFE;
+	border-radius: none;
+	color: #fff;
+	padding: .3rem .6rem;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-left: 0px !important;
+}
+
+.post-content  {
+    font-family: Merriweather, Georgia, Sans-serif;
+}
+
+.post-content h2, 
+.post-content h3, 
+.post-content h4, 
+.post-content h5,
+.post-content h6 {
+    font-family: Roboto, Sans;
+    margin: 1em 0;
+}  
+
+.post-content img {
+    max-width: 100%;
+}

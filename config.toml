@@ -1,3 +1,61 @@
-baseURL = "http://example.org/"
+baseURL = "https://situskode.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Situskode"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Situskode - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.png"
+  description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Andriansyah"
+  thumbnail = "/images/author.png"
+  description = "Creator of this blog."
+
+[params.index]
+  picture = "/images/author.jpg"
+  title = "Andriansyah"
+  subtitle = "Seorang Blogger dan Programmer Web juga pencinta FOSS!"
+  mdtext = '''
+Currently trying to get this blog running, still don't know what the blog will be about!\
+**This textblock is a demonstration of the mdtext-param.**\
+### This is a markdown heading
+'''
+  alertbar = false
+
+[params.social]
+  github = "<username>"
+  linkedin = "<username>"
+  xing = "<username>"
+  medium = "<username>"
+  twitter = "<username>"
+  instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "https://situskode.github.io/blog/"
+[[menu.main]]
+    name = "GNU Linux"
+    identifier = "linux"
+    weight = 200
+    url = "https://situskode.github.io/linux/"
+[[menu.main]]
+    name = "Web"
+    identifier = "web"
+    weight = 300
+    url = "https://situskode.github.io/web/"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 400
+    url = "https://situskode.github.io/about/"
